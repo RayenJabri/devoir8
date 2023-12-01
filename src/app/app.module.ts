@@ -16,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ListeTypesComponent } from './liste-types/liste-types.component';
 import { UpdateTypeComponent } from './update-type/update-type.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +39,7 @@ import { UpdateTypeComponent } from './update-type/update-type.component';
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-   
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
